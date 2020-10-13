@@ -1,0 +1,39 @@
+/* Developed by Geovane-Ievenes During the Next Level Week Workshop */
+
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateX(16px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.emerge-up{
+    animation-name: up;
+    animation-duration: 450ms;
+    animation-fill-mode: backwards;
+}
+
+header img{
+    animation-delay: 50ms;
+}
+
+.location{
+    animation-delay: 100ms;
+}
+
+h1{
+    animation-delay: 150ms;
+}
+
+visit p{
+    animation-delay: 200ms;
+}
+
+visit #button{
+    animation-delay: 250ms;
+}

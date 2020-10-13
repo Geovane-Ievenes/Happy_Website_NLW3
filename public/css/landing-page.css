@@ -1,0 +1,45 @@
+#landing-page{
+    height: 100vh;
+    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+    text-align: center;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    margin: auto;
+
+    width: 90%;
+}
+
+.location, h1, .visit p{
+    height: 16vh;
+}
+/* Developed by Geovane-Ievenes During the Next Level Week Workshop */
+
+h1 {
+    line-height: 3rem;
+}
+
+#button {
+    background-color: #FFD666;
+
+    height: 50px;
+    width: 50px;
+    border-radius: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+
+    transition: background 200ms;
+}
+
+#button:hover {
+    background-color: #96feff;
+}

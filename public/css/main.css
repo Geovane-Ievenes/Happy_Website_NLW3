@@ -1,0 +1,15 @@
+/* Developed by Geovane-Ievenes During the Next Level Week Workshop */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font: 400 1.8rem/2 'Nunito', sans-serif;
+    color: #fff;
+}
